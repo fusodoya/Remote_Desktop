@@ -1,6 +1,8 @@
 # Remote desktop
 ## Introduction
-Hello everyone, Lab01 is our project about Search in AI course. There are four Algorithm used in this project, include BFS, DFS, UCS, and A*, to solve Sokoban problem.
+Hello everyone, this project simulates the TeamViewer application. Once the connection is established,
+ the client is granted full control of the server via mouse and keyboard. Meanwhile, the server
+ continuously updates the screen for the client in real-time.
 
 There are our team's infomations:
 - 22120148: [Quang-Khai Le](https://github.com/john0148)
@@ -13,14 +15,14 @@ There are our team's infomations:
 
 # How to Use MSYS2 to Run a Remote Desktop Project
 ## Note: Use MSYS2 MINGW64
-![Alt text](image-5.png)
+![image-5](https://github.com/user-attachments/assets/10918bd6-c85f-4374-b38a-f609025ecb5d)
+
 
 ## BUILD INSTRUCTIONS
 
 - Copy the ```lib``` folder and paste it into all 3 directories.
 Commands to start the server:
 - Start the MSYS2 software
-  ![Alt text](image-5.png)
 - Navigate to the directory containing the makefile, Net folder, server folder, obj folder, and lib folder with the required libraries.
 - Enter the command `make server` and press enter to build the server.
 - Enter the command `./server.exe + port` to start the server and make it ready for connections.
@@ -28,7 +30,6 @@ Commands to start the server:
 
 Commands to start the client:
 - Start the MSYS2 software
-  ![Alt text](image-5.png)
 - Navigate to the directory containing the makefile, Net folder, server folder, obj folder, bin folder, and lib folder with the required libraries.
 - Enter the command `make` and press enter to build the client.
 - Enter the command `./bin/client.exe` to start the client to connect to the machines.
