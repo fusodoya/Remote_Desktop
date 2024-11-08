@@ -1,4 +1,4 @@
-# AI_Search
+# Remote desktop
 ## Introduction
 Hello everyone, Lab01 is our project about Search in AI course. There are four Algorithm used in this project, include BFS, DFS, UCS, and A*, to solve Sokoban problem.
 
